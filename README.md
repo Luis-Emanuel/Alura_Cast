@@ -1,7 +1,7 @@
 <h1 align="center">Alura Cast</h1>
 <p align="center">Alura Cast é uma página estática e totalmente responsiva inspirada na plataforma Spotify e foi construída somente com CSS Grid Layout</p>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/43679743/210637069-fe8c7ac0-2a0c-4ea8-97eb-e509f51183c1.svg" width="200px" />
+<img src="https://user-images.githubusercontent.com/43679743/210783493-cb005263-178c-4b4d-a727-92da776295d1.svg" width="300px" />
 </div>	
 
  - Tecnlogias utilizadas:
