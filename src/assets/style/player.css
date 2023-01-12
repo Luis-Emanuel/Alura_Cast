@@ -1,0 +1,34 @@
+.navbar {
+    position: fixed;
+    bottom: 0;
+    background-color: var(--azul-escuro);
+    width: 100vw;
+    opacity: 0.9;
+}
+.navbar__items {
+    width: 80%;
+    margin: .5rem auto;
+}
+
+.navbar__item {
+    font-size: .75rem;
+    text-align: center;
+}
+
+.navbar__item::before {
+    display: block;
+    margin-bottom: 3px;
+}
+
+.navbar__item--home::before {
+    content: url("../img/icone-home-mb.svg");
+}
+
+.navbar__item--busca::before {
+    content: url("../img/icone-busca-mb.svg");
+
+}
+
+.navbar__item--biblioteca::before {
+    content: url("../img/icone-biblioteca-mb.svg");
+}

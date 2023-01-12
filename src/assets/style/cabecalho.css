@@ -1,0 +1,7 @@
+.cabecalho {
+    padding-top: 2.5rem;
+}
+
+.cabecalho__botao:nth-of-type(1) {
+    margin-right: 1rem;
+}

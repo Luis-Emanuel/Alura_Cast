@@ -1,0 +1,51 @@
+.menu-lateral {
+    background-color: var(--azul-escuro);
+    padding: 2.5rem .5rem 0;
+    font-weight: 600;
+    letter-spacing: 2px;
+    width: 230px;
+}
+
+.menu-lateral__link::before  {
+    padding-left: 1rem;
+    padding-right: .5rem;
+    vertical-align: middle;
+}
+
+.menu-lateral__link {
+    font-family: var(--fonte-textos);
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: .5rem;
+}
+
+.ativo {
+    background-color: var(--azul-medio);
+    border-radius: 5px;
+    padding: .75rem 0;
+}
+
+.menu-lateral__link--home::before {
+    content: url("../img/icone-home.svg");
+}
+
+.menu-lateral__link--busca::before {
+    content: url("../img/icone-busca.svg");
+}
+
+.menu-lateral__link--biblioteca::before {
+    content: url("../img/icone-biblioteca.svg");
+}
+
+.menu-lateral__playlist {
+    text-transform: uppercase;
+    padding-left: 1rem;
+}
+
+.menu-lateral__link--playlist::before {
+    content: url("../img/icone-add_box.svg");
+}
+
+.menu-lateral__link--podcasts::before {
+    content: url("../img/icone-stars.svg");
+}
