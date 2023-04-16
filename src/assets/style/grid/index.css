@@ -1,17 +1,19 @@
-body{
-    display: grid;
-    grid-template-areas: 
+body {
+  display: grid;
+  grid-template-areas:
     "aside header"
     "aside main";
-    grid-template-columns: auto 1fr;
+  grid-template-columns: auto 1fr;
 }
 
-.cabecalho{
-    grid-area: header;
+.cabecalho {
+  grid-area: header;
 }
-.menu-lateral{    
-    grid-area: aside;
+
+.menu-lateral {
+  grid-area: aside;
 }
-.principal{
-    grid-area: main;
+
+.principal {
+  grid-area: main;
 }
